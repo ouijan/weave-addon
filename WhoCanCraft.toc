@@ -1,0 +1,10 @@
+## Interface: 40000
+## Title: WhoCanCraft
+## Notes: See who can craft what on your server
+## Author: Lemmiwinks
+## Version: 0.1
+## SavedVariables: WhoCanCraftDB
+
+embeds.xml
+
+Core.lua
