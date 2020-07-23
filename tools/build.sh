@@ -1,0 +1,16 @@
+#!/bin/bash
+PROJECT_PATH="."
+DIR_PATH="./$PROJECT_PATH"
+DIST_PATH="./dist/$PROJECT_PATH"
+
+ADDON_NAME="Weave"
+
+rm -rf $DIST_PATH
+mkdir -p $DIST_PATH
+
+cp -fr "$DIR_PATH/src" "$DIST_PATH/$ADDON_NAME"
+
+ORIGINAL_PATH=$(pwd -P)
+cd $DIST_PATH
+zip -rm "$ADDON_NAME.zip" "$ADDON_NAME"
+cd $ORIGINAL_PATH

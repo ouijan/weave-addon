@@ -1,0 +1,14 @@
+## Interface: 40000
+## Title: Weave
+## Notes: Assorted Tools
+## Author: Lemmiwinks
+## Version: 0.1
+## SavedVariables: WeaveDB
+
+embeds.xml
+
+core/comm.lua
+core/data-sync.lua
+core/professions.lua
+
+core.lua
